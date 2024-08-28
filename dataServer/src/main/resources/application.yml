@@ -1,0 +1,10 @@
+server:
+  port: 9000
+az:
+  rack: rack1
+  zone: zone1
+
+zookeeper:
+  connectString: 127.0.0.1:2181
+  session-timeout: 3000
+  connection-timeout: 3000

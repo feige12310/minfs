@@ -1,0 +1,15 @@
+server:
+  port: 8000
+spring:
+  task:
+    execution:
+      pool:
+        core-size: 10
+        max-size: 20
+        queue-capacity: 1000
+zookeeper:
+  connectString: 127.0.0.1:2181
+  session-timeout: 3000
+  connection-timeout: 3000
+data-server:
+  path: /registry/dataService
